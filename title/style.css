@@ -1,0 +1,279 @@
+#title {
+	width: 1920px;
+	height: 1080px;
+	top: 0px;
+	left: 0px;
+	opacity: 100;
+	overflow: hidden;
+	position: relative;
+}
+
+#title-card-1 {
+	width: 1920px;
+	height: 1080px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	opacity: 100;
+	-webkit-animation: animate-1 110s 0s infinite;
+}
+
+#stream-name {
+    width: 1920px;
+    height: 1080px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 100;
+    z-index: 1;
+}
+
+#title-card-2 {
+	width: 1920px;
+	height: 1080px;
+	top: 0px;
+	left: 1920px;
+	position: absolute;
+	opacity: 100;
+	-webkit-animation: animate-2 110s 0s infinite;
+}
+
+#title-card-3 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 1080px;
+	left: 0px;
+	opacity: 100;
+	-webkit-animation: animate-3 110s 0s infinite;
+}
+
+#title-card-4 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: -1920px;
+	opacity: 100;
+	-webkit-animation: animate-4 110s 0s infinite;
+}
+
+#title-card-5 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: -1920px;
+	opacity: 100;
+	-webkit-animation: animate-5 110s 0s infinite;
+}
+
+#title-card-6 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: -1080px;
+	left: 0px;
+	opacity: 100;
+	-webkit-animation: animate-6 110s 0s infinite;
+}
+
+#title-card-7 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: 1920px;
+	opacity: 100;
+	-webkit-animation: animate-7 110s 0s infinite;
+}
+
+#title-card-8 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 1080px;
+	left: 0px;
+	opacity: 100;
+	-webkit-animation: animate-8 110s 0s infinite;
+}
+
+#title-card-9 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: -1920px;
+	opacity: 100;
+	-webkit-animation: animate-9 110s 0s infinite;
+}
+
+@-webkit-keyframes animate-1 {
+	0%, 10% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	11% {
+		-webkit-transform: translate(-1920px, 0px);
+		opacity: 100;
+	}
+
+	12%, 98% { opacity: 0; }
+
+	99% {
+		-webkit-transform: translate(0px, -1080px);
+		opacity: 100;
+	}
+}
+
+@-webkit-keyframes animate-2 {
+	0%, 10% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	11%, 21% {
+		-webkit-transform: translate(-1920px, 0px);
+		opacity: 100;
+	}
+
+	22% {
+		-webkit-transform: translate(-1920px, -1080px);
+		opacity: 100;
+	}
+
+	23%, 100% { opacity: 0; }
+}	
+
+@-webkit-keyframes animate-3 {
+	0%, 21% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	22%, 32% {
+		-webkit-transform: translate(0px, -1080px);
+		opacity: 100;
+	}
+
+	33% {
+		-webkit-transform: translate(1920px, -1080px);
+		opacity: 100;
+	}
+
+	34%, 100% { opacity: 0; }
+}	
+
+@-webkit-keyframes animate-4 {
+	0%, 32% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	33%, 43% {
+		-webkit-transform: translate(1920px, 0px);
+		opacity: 100;
+	}
+
+	44% {
+		-webkit-transform: translate(3840px, 0px);
+		opacity: 100;
+	}
+
+	45%, 100% { opacity: 0; }
+}	
+
+@-webkit-keyframes animate-5 {
+	0%, 43% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	44%, 54% {
+		-webkit-transform: translate(1920px, 0px);
+		opacity: 100;
+	}
+
+	55% {
+		-webkit-transform: translate(1920px, 1080px);
+		opacity: 100;
+	}
+
+	56%, 100% { opacity: 0; }
+}
+
+@-webkit-keyframes animate-6 {
+	0%, 54% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	55%, 65% {
+		-webkit-transform: translate(0px, 1080px);
+		opacity: 100;
+	}
+
+	66% {
+		-webkit-transform: translate(-1920px, 1080px);
+		opacity: 100;
+	}
+
+	67%, 100% { opacity: 0; }
+}
+
+@-webkit-keyframes animate-7 {
+	0%, 65% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	66%, 76% {
+		-webkit-transform: translate(-1920px, 0px);
+		opacity: 100;
+	}
+
+	77% {
+		-webkit-transform: translate(-1920px, -1080px);
+		opacity: 100;
+	}
+
+	78%, 100% { opacity: 0; }
+}
+
+@-webkit-keyframes animate-8 {
+	0%, 76% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	77%, 87% {
+		-webkit-transform: translate(0px, -1080px);
+		opacity: 100;
+	}
+
+	88% {
+		-webkit-transform: translate(1920px, -1080px);
+		opacity: 100;
+	}
+
+	89%, 100% { opacity: 0; }
+}
+
+@-webkit-keyframes animate-9 {
+	0%, 87% {
+		-webkit-transform: translate(0px, 0px);
+		opacity: 100;
+	}
+
+	88%, 99% {
+		-webkit-transform: translate(1920px, 0px);
+		opacity: 100;
+	}
+
+	100% {
+		-webkit-transform: translate(1920px, 1080px);
+		opacity: 100;
+	}
+
+}
